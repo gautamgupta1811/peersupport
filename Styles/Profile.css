@@ -1,0 +1,139 @@
+
+#Profile
+{
+    padding: 1rem 2.25rem 1.7rem 7rem;
+}
+.ProfileContainer
+{
+    display: flex;
+   gap: 4rem;
+   margin-bottom: 2rem;
+}
+.ProfileImg
+{
+    width: 20%;
+    height: 20%;
+}
+.no
+{
+    margin-top: 2rem;
+}
+form input
+{
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    width: 50vw;
+    border: #1e9494 4px solid;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+form p
+{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.Dropdown
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.WorkHeader,.InternshipsHeader,.CourseHeader,.SocialHeader,.ExamHeader
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.header{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.add
+{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.fa-chevron-right,.fa-chevron-down
+{
+    font-size: 1.74rem;
+
+}
+.hide
+{
+    display: none;
+}
+.noWorkExp,.noInternship,.noCourse,.noSocial
+{
+    position: absolute;
+    left: 20rem;
+    font-size: 1.5rem;
+    gap: 1rem;
+    font-weight: 500;
+}
+.relative
+{
+    position: relative;
+}
+.flex
+{
+    display: flex;
+    align-items: center;
+}
+.gap
+{
+    gap: 5rem;
+}
+.plus
+{
+    font-size: 3rem;
+}
+.timesegment
+{
+    display: flex;
+    width: 50vw;
+    margin-left: 1.5rem;
+}
+.timesegment input
+{
+    margin: 0;
+    outline: none;
+   
+}
+.from,.VA,.QC
+{
+    border-right: none;
+}
+.to,.LRDI,.QC
+{
+    border-left: none;
+}
+
+@media (max-width: 768px) {
+    #Profile
+    {
+        padding: 1rem 2.25rem 1.7rem 2rem;
+    }
+    .header{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    form p
+    {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    }
+    .noWorkExp,.noInternship,.noCourse,.noSocial
+    {
+    position: absolute;
+    left: 15rem;
+    font-size: 1.25rem;
+    gap: .5rem;
+    font-weight: 500;
+    }
+}

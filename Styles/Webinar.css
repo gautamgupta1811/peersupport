@@ -1,0 +1,160 @@
+.Webinar
+{
+    background-color: #0E5959;
+}
+#Events
+{
+    padding: 1rem 3rem 1.7rem 3rem;
+    margin-bottom: 3rem;
+}
+.EventsHeader
+{
+font-weight: 600;
+  font-size: 1.7rem;
+  margin-bottom: 3.7rem;
+}
+.EventsContainer
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem; 
+}
+.Event
+{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.profileImg
+{
+    width: 15vw; 
+    height: 15vw; 
+    border-radius: 50%; 
+}
+.profileName
+{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.linkedinName
+{
+    font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+.scores
+{
+    font-weight: 400;
+    font-size: .75rem;
+}
+.Register
+{
+    max-width: 200px;
+}
+
+.RegisterHead
+{
+ font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin: 0 0 .5rem .5rem;
+}
+.RegisterDetails
+{
+    font-weight: 400;
+  font-size: .9rem;
+  letter-spacing: 1px;
+  margin: 0 0 .5rem .5rem;
+}
+.RegisterNow
+{
+    background-color: #0E5959;
+  color: #ffffff;
+  padding: .5rem;
+  padding-left: 2rem;
+  border: none;
+  cursor: pointer;
+  clip-path: polygon(0 0, 72% 0, 100% 50%, 71% 100%, 0 100%);
+}
+@media only screen and (max-width: 723px) {
+  .RegisterNow
+  {
+    padding-left: .5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .EventsContainer
+{
+    gap: 3rem; 
+}
+}
+@media only screen and (max-width: 446px) {
+  .EventsContainer
+{
+  grid-template-columns: repeat(1, 1fr);
+}
+.RegisterNow
+{
+  width: 50%;
+}
+}
+
+/* Past session Styles */
+#Mentors
+  {
+    background-color: #FFBD59;
+    padding: 2.7rem 2.25rem 1.7rem 2.25rem;
+  }
+  .MentorsHeader
+  {
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 1.7rem; 
+   
+  }
+  .MentorsHeadercon
+  {
+  display: flex;
+    justify-content: space-between;
+  }
+  .MentorsContainer
+  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5rem;
+  }
+
+  .MentorsContainer a
+  {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding-left: .5rem;
+    margin-bottom: 1.7rem;
+  
+    
+  }
+  .MentorsContainer a iframe
+  {
+    width: 100%; 
+    min-height: 15rem;
+    height: auto;
+    border-radius: 2rem;
+  }
+  .MentorsContainer a p
+  {
+    font-weight: 400;
+    font-size: 1.325rem;
+    letter-spacing: 1px;
+    padding-left: .5rem;
+  }
+  @media only screen and (max-width: 446px) {
+    .MentorsContainer
+    {
+      width: 100%;
+      grid-template-columns: repeat(2,1fr);
+    }
+  }

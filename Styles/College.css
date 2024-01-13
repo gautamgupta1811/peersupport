@@ -1,0 +1,89 @@
+.College
+{
+  background-color: #0E5959;
+}
+
+/* Know Your College Styles */
+  #KnowYourCollege {
+    background-color: #FFBD59;
+    padding: 1rem 2.25rem 1.7rem 2.25rem;
+}
+
+.KnowYourCollegeHeader {
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 1.7rem;
+}
+
+.KnowYourCollegecontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; 
+}
+
+.CollegeDetails {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    max-width: 23rem;
+    align-items: center;
+}
+
+.CollegeName {
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding-left: 0.5rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+.collegeimg {
+  height: 17vw; 
+  border-radius: 2rem;
+}
+.CollegeDesc
+{
+    letter-spacing: .75px;
+    padding-left: 0.5rem;
+    
+}
+.Booknow
+  {
+    width: 70%;
+    background-color: #0E5959;
+    border-radius: 25px;
+    color: #ffffff;
+    padding: .5rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+  }
+  .hide{
+    display: none;
+}
+.DescContainer {
+  position: relative;
+  margin-bottom: 2rem;
+  max-width: 100%;
+}
+.ReadMoreBtn {
+  font-size: .75rem;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  background-color: #DB880C;
+  color: #ffffff;
+  padding: .25rem;
+  padding-right: .5rem;
+  border: none;
+  cursor: pointer;
+  clip-path: polygon(1% 0, 72% 0, 100% 50%, 71% 100%, 0 100%);
+}
+
+
+
+

@@ -1,0 +1,340 @@
+
+  /* Main section Styles */
+  .mainHeading
+  {
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin: .5rem 1rem .25rem;
+  }
+  .mainDesc
+  {
+    font-weight: 400;
+    font-size: 1.575rem;
+    letter-spacing: 1px;
+    margin-left: 1rem;
+  }
+  .mainBody{
+    margin-bottom: 5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+  @media only screen and (max-width: 1116px) {
+    .mainHeading
+    {
+      font-size: 1.5rem;
+    }
+    .mainDesc
+    {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 853px) {
+    .mainHeading
+    {
+      font-size: 1.75rem;
+    }
+    .mainDesc
+    {
+      font-size: 1.25rem;
+    }
+  }
+
+  /* BoxFlow Styles */
+  .box-flow
+  {
+    display: flex;
+    justify-content: space-between;
+    margin: 3.5rem;
+  }
+  .box
+  {
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: auto;
+    background-color: #1e9494;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.125rem;
+    padding: 1rem;
+    text-align:center;
+  }
+  .Arrow
+  {
+    width: 350px;
+    height: 200px;
+  }
+  .box3
+  {
+    z-index: -1;
+    transform: translateY(-40px) translateX(-7px);
+  }
+  .BoxArrow2
+  {
+    
+    transform: rotate(-10deg) translateY(-20px);
+  }
+
+  @media only screen and (max-width: 1275px) {
+    .box
+    {
+      width: 900px;
+    height: auto;
+    }
+    .Arrow
+  {
+    width: 100px;
+    height: 100px;
+  }
+  }
+
+  @media only screen and (max-width: 723px) {
+    .box-flow
+   {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+   }
+   .box
+    {
+    width: 200px;
+    height: auto;
+    
+    }
+    .Arrow
+    {
+      transform: rotate(90deg)
+    }
+    .box3
+  {
+    z-index: -1;
+    transform: translateY(0) translateX(0);
+  }
+  
+  }
+
+  /* Know Your College Styles */
+  #KnowYourCollege{
+    background-color: #FFBD59;
+    margin-bottom: 3rem;
+    padding: 1rem 2.25rem 1.7rem 2.25rem;
+  }
+  .KnowYourCollegeHeader
+  {
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 1.7rem;
+  }
+  .KnowYourCollegecontainer
+  {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .KnowYourCollegecontainer a
+  {
+    text-decoration: none;
+    color: black;
+  }
+  .KnowYourCollegecontainer a p
+  {
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding-left: .5rem;
+  }
+
+  /* Book Call Styles */
+  .Call
+  {
+      background-color: #0E5959;
+  }
+  #BookACall
+  {
+    padding: 1rem 2.25rem 1.7rem 2.25rem;
+  }
+  .BookACallHeader{
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 1.7rem;
+  }
+  .BooKing
+  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.7rem;
+    gap: 2rem;
+  }
+  .Callcollege
+  {
+    max-width: 20rem;
+  }
+  .Callcollege p
+  {
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin: 0 0 .5rem .5rem;
+  }
+  .CallName
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.2rem;
+  }
+  
+  .Booknow
+  {
+    width: 100%;
+    background-color: #1e9494;
+    border-radius: 25px;
+    color: #ffffff;
+    padding: .5rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+  }
+  .CallImg
+  {
+    width: 15vw; 
+    height: 15vw; 
+    border-radius: 50%; 
+   
+  }
+  .CallId
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .linkedinName
+  {
+    font-weight: 600;
+    font-size: 1.175rem;
+    
+  }
+  .fa-chevron-down
+  {
+    font-size: 2rem;
+  }
+  .collegeimg {
+    height: 17vw; 
+    border-radius: 2rem;
+  }
+
+
+
+  /* Mentors Section Styles */
+  #Mentors
+  {
+    background-color: #FFBD59;
+    padding: 1rem 2.25rem 1.7rem 2.25rem;
+    margin-bottom: 3rem;
+  }
+  .MentorsHeader
+  {
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 1.7rem;
+    
+  }
+  .MentorsContainer
+  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.7rem;
+  }
+
+  .MentorsContainer a
+  {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding-left: .5rem;
+    
+  }
+  .MentorsContainer a iframe
+  {
+    max-width: 25vw;
+    height: 17vw; 
+  border-radius: 2rem;
+  }
+  .MentorsContainer a p
+  {
+    width: 25vw; 
+    font-weight: 400;
+    font-size: 1.325rem;
+    letter-spacing: 1px;
+    padding-left: .5rem;
+  }
+  .Mentorsbtn
+  {
+    width: 30%;
+    color: #ffffff;
+    background-color: #EA3933;
+    border-radius: 25px;
+    color: #ffffff;
+    padding: .5rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+  }
+
+
+
+  /* Footer Styles */
+  footer
+  {
+    padding: 1rem 2.25rem 1.7rem 2.25rem;
+  }
+  .footerHeader{
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 1.7rem;
+  }
+  .footercontainer
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .divideCon
+  {
+    display: flex;
+    width: 45%;
+  }
+  .divideLine
+  {
+    border: 1px solid black;
+    height: 200px;
+  }
+  .Contact
+  {
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  .Contact p{
+    padding: .5rem;
+  }
+  .CompanyDetails
+  {
+    padding-left: 1.25rem;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  .CompanyDetails p
+  {
+    padding: .5rem;
+  }
+  
+  
+  
