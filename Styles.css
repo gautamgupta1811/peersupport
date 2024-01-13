@@ -1,0 +1,254 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+html
+{
+  height: 100%;
+}
+body
+{
+    height: 100%;
+    margin: 1rem;
+}
+/* Header styles */
+.peer-support-heading{
+    display: flex;
+    align-items: center;
+    margin: 3rem 0 1rem 2rem;
+}
+.header-img
+{
+    width: 100px;
+}
+.header-text
+{
+    margin-left: 1rem;
+    font-size: 1.625rem;
+    font-weight: 600;
+}
+
+/* NavBar styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e9494;
+    border-radius: 24px;
+    padding: 1.25rem;
+    margin-bottom: 2rem;
+    
+  }
+  nav ul {
+    margin-left: auto;
+    margin-right: 1.725rem;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+  }
+  nav a {
+    text-decoration: none;
+  }
+  nav ul a {
+    font-size: 1.325rem;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  #ham-menu {
+    display: none;
+  }
+  #logo
+  {
+    display: none;
+  }
+  nav ul.active {
+    left: 0;
+  }
+  @media only screen and (max-width: 1116px) {
+    nav ul a
+    {
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (max-width: 853px) {
+    html {
+      font-size: 75%;
+    }
+    .peer-support-nav
+    {
+      padding:1rem;
+      /* border-radius: 0; */
+      position: sticky;
+    }
+    body
+    {
+      margin: 0;
+    }
+    /* #ham-menu {
+      display: block;
+      color: #ffffff;
+    }
+    #logo
+    {
+        display: block;
+    }
+    .peer-support-heading
+    {
+      display: none;
+    }
+    .ham-logo
+    {
+      width: 3rem;
+    }
+    nav a#logo,
+    #ham-menu {
+      font-size: 3.2rem;
+    }
+    nav ul {
+      background-color: black;
+      position: fixed;
+      left: -100vw;
+      top: 73.6px;
+      width: 100vw;
+      height: calc(100vh - 73.6px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transition: 1s;
+      gap: 0;
+    } */
+  }
+  @media only screen and (max-width: 575px) {
+    .peer-support-nav
+    {
+      padding:1rem;
+      /* border-radius: 0; */
+      position: sticky;
+    }
+    body
+    {
+      margin: 0;
+    }
+    /* nav ul {
+      top: 65.18px;
+      height: calc(100vh - 65.18px);
+    } */
+  }
+
+  /* Main section Styles */
+  .mainHeading
+  {
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin: .5rem 1rem .25rem;
+  }
+  .mainDesc
+  {
+    font-weight: 400;
+    font-size: 1.575rem;
+    letter-spacing: 1px;
+    margin-left: 1rem;
+  }
+  .mainBody{
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  @media only screen and (max-width: 1116px) {
+    .mainHeading
+    {
+      font-size: 1.5rem;
+    }
+    .mainDesc
+    {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 853px) {
+    .mainHeading
+    {
+      font-size: 1.75rem;
+    }
+    .mainDesc
+    {
+      font-size: 1.25rem;
+    }
+  }
+
+  /* BoxFlow Styles */
+  .box-flow
+  {
+    display: flex;
+    justify-content: space-between;
+    margin: 3.5rem;
+  }
+  .box
+  {
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: auto;
+    background-color: #1e9494;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.125rem;
+    padding: 1rem;
+    text-align:center;
+  }
+  .Arrow
+  {
+    width: 350px;
+    height: 200px;
+  }
+  .box3
+  {
+    z-index: -1;
+    transform: translateY(-40px) translateX(-7px);
+  }
+  .BoxArrow2
+  {
+    
+    transform: rotate(-10deg) translateY(-20px);
+  }
+
+  @media only screen and (max-width: 1275px) {
+    .box
+    {
+      width: 900px;
+    height: auto;
+    }
+    .Arrow
+  {
+    width: 100px;
+    height: 100px;
+  }
+  }
+
+  @media only screen and (max-width: 723px) {
+    .box-flow
+   {
+    flex-direction: column;
+    justify-content: center;
+   }
+   .box
+    {
+    width: auto;
+    height: auto;
+    }
+    .Arrow
+    {
+      transform: rotate(90deg) translateY(-30vw);
+    }
+    .box3
+  {
+    z-index: -1;
+    transform: translateY(0) translateX(0);
+  }
+  
+  }
